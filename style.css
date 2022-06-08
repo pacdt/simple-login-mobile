@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: 'Joan', serif;
+    background-color: white;
+    box-sizing: border-box;
+}
+.container{
+    padding: 15px;
+    margin: auto;
+}
+.login{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.login h2{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.login h4{
+    font-size: 1.3em;
+    color: gray;
+    max-width: 300px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    padding: 15px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    color: gray;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.fpass{
+    font-size: 1.2em;
+    text-align: right;
+    margin-top: 15px;
+}
+.fpass a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.btn{
+    text-align: center;
+    margin-top: 15px;
+}
+.btn input{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 95%;
+    font-size: 1.1em;
+}
+.footer{
+    color: gray;
+    font-size: 1.1em; /*
+    position: fixed;
+    bottom: 30px;
+    left: 40%;
+    transform: translateX(-30%); */
+    margin-top: 15vh;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:visited{
+    color: blue;
+}
+@media  screen and (min-width:400px) {
+    .footer{
+        margin-top: 30vh;
+    }
+}
+@media screen and (min-width: 600px) {
+    .login{
+        width: 50%;
+        float: left;
+    }
+    .responsive{
+        width: 50%;
+        float: right;
+        margin-top: 20vh;
+    }
+    .footer{
+        margin-top: 85vh;
+    }
+    
+}
+@media screen and (min-width: 800px) {
+    .container{
+        font-size: 1.7em;
+        padding: 20px;
+    }
+    .login h4{
+        max-width: 500px;
+    }
+}
